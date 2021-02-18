@@ -1,4 +1,3 @@
-![decorative o](oi-icon.png)
 # Organizing Information in Information Agencies.
 
 This material was developed and authored by Heather Moulaison Sandy and Felicity Dykas and funded in part by a grant from the University of Missouri System. 
@@ -28,3 +27,6 @@ Recommended Reference (APA 7th): Moulaison-Sandy, H. & Dykas, F. (2021). Organiz
 https://apastyle.apa.org/style-grammar-guidelines/citations/classroom-intranet-sources - how to cite OER online  
 
 Zotero Bibliography (Selected): https://www.zotero.org/groups/2697698/organizing_information_in_information_agencies/library
+
+![decorative o](oi-icon.png)
+
