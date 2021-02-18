@@ -1,6 +1,6 @@
 # Organizing Information in Information Agencies.
 
-This material was developed and authored by Heather Moulaison Sandy and Felicity Dykas and funded in part by a grant from the University of Missouri System. 
+This material was developed and authored by Heather Moulaison Sandy and Felicity Dykas and funded in part by a grant from the University of Missouri System. Converted to markdown and transfered to github with editorial changes made by Helena Marvin.
 
 This OER was created for ISLT 7302, a core course in the MLIS Program at the iSchool at the University of Missouri. Core courses typically are taken as classes at the beginning of your program of study, generally completed before most elective courses. Accordingly, this course material is introductory in nature, with the goal of setting students up for understanding the field of organization of information (IO) which might be very new to them. It also should help provide perspective on how IO is related to most other work carried out in the information professions.
 
