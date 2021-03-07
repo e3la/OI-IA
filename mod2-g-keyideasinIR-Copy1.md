@@ -1,0 +1,62 @@
+---
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .md
+      format_name: markdown
+      format_version: '1.3'
+      jupytext_version: 1.10.2
+  kernelspec:
+    display_name: Python 3
+    language: python
+    name: python3
+---
+
+# Key Ideas in IR: Information Retrieval and Databases
+
+A lot of the ideas in IO and IR are very complex. The next few pages in this module present a number of key ideas and terms that are instrumental. 
+
+Be sure to read the definitions, click on the examples, and make sure you understand these complex topics before moving on. 
+
+## Information Retrieval
+
+Below is a definition of [information retrieval ](https://www.abc-clio.com/ODLIS/odlis_i.aspx#inforetrieval)from the ODLIS: 
+
+> The process, methods, and procedures used to selectively recall recorded [information](https://www.abc-clio.com/ODLIS/odlis_i.aspx#information) from a [file](https://www.abc-clio.com/ODLIS/odlis_f.aspx#file) of [data](https://www.abc-clio.com/ODLIS/odlis_d.aspx#data). In [libraries](https://www.abc-clio.com/ODLIS/odlis_l.aspx#library) and [archives](https://www.abc-clio.com/ODLIS/odlis_a.aspx#archives), [searches](https://www.abc-clio.com/ODLIS/odlis_s.aspx#search) are typically for a [known item](https://www.abc-clio.com/ODLIS/odlis_jk.aspx#knownitem) or for information on a specific [subject](https://www.abc-clio.com/ODLIS/odlis_s.aspx#subject), and the file is usually a human-readable [catalog](https://www.abc-clio.com/ODLIS/odlis_c.aspx#catalog) or [index](https://www.abc-clio.com/ODLIS/odlis_i.aspx#index), or a computer-based [information storage and retrieval](https://www.abc-clio.com/ODLIS/odlis_i.aspx#isar) system, such as an [online catalog](https://www.abc-clio.com/ODLIS/odlis_o.aspx#onlinecatalog) or [bibliographic database](https://www.abc-clio.com/ODLIS/odlis_b.aspx#bibdatabase). In designing such systems, balance must be attained between speed, [accuracy](https://www.abc-clio.com/ODLIS/odlis_a.aspx#accuracy), cost, convenience, and effectiveness.
+
+In the information professions, the focus in IR tends to be on databases such as library catalogs or digital repositories. Information professionals, however, need to understand how IR works in general, including on the web. After all, [Amazon](https://www.amazon.com/) is a database.
+
+## Databases
+                                                                                                                    
+Databases are software -- often hosted in the cloud and available through the Web -- that contain searchable information. Wikipedia describes [Databases](https://en.wikipedia.org/wiki/Database) as follows:
+
+> A **database** is an organized collection of [data](https://en.wikipedia.org/wiki/Data_(computing) "Data (computing)"), generally stored and accessed electronically from a computer system.
+
+Many of the databases used in the information professions are relational databases, with very specific ways for accessing and searching the content, and with specific kinds of information contained within. Wikipedia describes [Relational databases](https://en.wikipedia.org/wiki/Relational_database) this way: 
+
+> A **relational database** is a digital [database](https://en.wikipedia.org/wiki/Database "Database") based on the [relational model](https://en.wikipedia.org/wiki/Relational_model "Relational model") of data, as proposed by [E. F. Codd](https://en.wikipedia.org/wiki/E._F._Codd "E. F. Codd") in 1970.[\[1\]](https://en.wikipedia.org/wiki/Relational_database#cite_note-codd-1) A software system used to maintain relational databases is a [relational database management system](https://en.wikipedia.org/wiki/Relational_database_management_system "Relational database management system") (RDBMS). Many relational database systems have an option of using the [SQL](https://en.wikipedia.org/wiki/SQL "SQL") (Structured Query Language) for querying and maintaining the database.[\[2\]](https://en.wikipedia.org/wiki/Relational_database#cite_note-2)
+
+The whole idea of "query" is important in this context. In fact, that is one aspect essential to databases—they can be queried. Follow this link to read about three primary ways a database can be queried: [https://www.webopedia.com/TERM/Q/query.html](https://www.webopedia.com/TERM/Q/query.html)
+
+```{admonition} Amazon:
+To use [Amazon](https://www.amazon.com/) as an example, the database is the system that users query to find out if a certain book or product is available for purchase.
+```
+
+#### Databases in LIS
+
+Those were some rather technical, computer-science-oriented explanations in Wikipedia and the Webopedia. Below is a definition of [database](https://www.abc-clio.com/ODLIS/odlis_d.aspx#database) designed for the information professionals from the ODLIS:
+
+> [**database**](https://www.abc-clio.com/ODLIS/odlis_d.aspx#database)  
+> A large, regularly [update](https://www.abc-clio.com/ODLIS/odlis_u.aspx#update)d [file](https://www.abc-clio.com/ODLIS/odlis_f.aspx#file) of [digitized](https://www.abc-clio.com/ODLIS/odlis_d.aspx#digitization) [information](https://www.abc-clio.com/ODLIS/odlis_i.aspx#information) ([bibliographic record](https://www.abc-clio.com/ODLIS/odlis_b.aspx#bibrecord)s, [abstract](https://www.abc-clio.com/ODLIS/odlis_a.aspx#abstract)s, [full-text](https://www.abc-clio.com/ODLIS/odlis_f.aspx#fulltext) [document](https://www.abc-clio.com/ODLIS/odlis_d.aspx#document)s, [directory](https://www.abc-clio.com/ODLIS/odlis_d.aspx#directory) [entries](https://www.abc-clio.com/ODLIS/odlis_e.aspx#entry), images, statistics, etc.) related to a specific [subject](https://www.abc-clio.com/ODLIS/odlis_s.aspx#subject) or [field](https://www.abc-clio.com/ODLIS/odlis_f.aspx#field), consisting of [record](https://www.abc-clio.com/ODLIS/odlis_r.aspx#record)s of uniform [format](https://www.abc-clio.com/ODLIS/odlis_f.aspx#format) organized for ease and speed of [search](https://www.abc-clio.com/ODLIS/odlis_s.aspx#search) and [retrieval](https://www.abc-clio.com/ODLIS/odlis_i.aspx#inforetrieval) and managed with the aid of [database management system](https://www.abc-clio.com/ODLIS/odlis_d.aspx#dbmanagement) (DBMS) [software](https://www.abc-clio.com/ODLIS/odlis_s.aspx#software). [Content](https://www.abc-clio.com/ODLIS/odlis_c.aspx#content) is created by the database producer (for example, the American Psychological Association), which usually [publishes](https://www.abc-clio.com/ODLIS/odlis_p.aspx#publishing) a [print](https://www.abc-clio.com/ODLIS/odlis_p.aspx#print) version (_Psychological Abstracts_) and leases the content to one or more database [vendor](https://www.abc-clio.com/ODLIS/odlis_v.aspx#vendor)s ([EBSCO](https://www.abc-clio.com/ODLIS/odlis_e.aspx#ebsco), [OCLC](https://www.abc-clio.com/ODLIS/odlis_o.aspx#oclc), etc.) that provide electronic [access](https://www.abc-clio.com/ODLIS/odlis_a.aspx#access) to the [data](https://www.abc-clio.com/ODLIS/odlis_d.aspx#data) after it has been [converted](https://www.abc-clio.com/ODLIS/odlis_d.aspx#dataconversion) to [machine-readable](https://www.abc-clio.com/ODLIS/odlis_m.aspx#machinereadable) form (_PsycINFO_), usually on [CD-ROM](https://www.abc-clio.com/ODLIS/odlis_c.aspx#cdrom) or [online](https://www.abc-clio.com/ODLIS/odlis_o.aspx#online) via the [Internet](https://www.abc-clio.com/ODLIS/odlis_i.aspx#internet), using [proprietary](https://www.abc-clio.com/ODLIS/odlis_p.aspx#proprietary) [search software](https://www.abc-clio.com/ODLIS/odlis_s.aspx#searchsoftware).
+> 
+> Most databases used in [libraries](https://www.abc-clio.com/ODLIS/odlis_l.aspx#library) are [catalog](https://www.abc-clio.com/ODLIS/odlis_c.aspx#catalog)s, [periodical index](https://www.abc-clio.com/ODLIS/odlis_p.aspx#periodicalindex)es, [abstracting service](https://www.abc-clio.com/ODLIS/odlis_a.aspx#abstractingservice)s, and [full-text](https://www.abc-clio.com/ODLIS/odlis_f.aspx#fulltext) [reference](https://www.abc-clio.com/ODLIS/odlis_r.aspx#refbook) resources leased [annual](https://www.abc-clio.com/ODLIS/odlis_a.aspx#annual)ly under [licensing agreement](https://www.abc-clio.com/ODLIS/odlis_l.aspx#licensing)s that limit access to registered [borrower](https://www.abc-clio.com/ODLIS/odlis_b.aspx#borrower)s and [library staff](https://www.abc-clio.com/ODLIS/odlis_l.aspx#librarystaff). [Abbreviated](https://www.abc-clio.com/ODLIS/odlis_a.aspx#abbreviation) _db_. Compare with [data bank](https://www.abc-clio.com/ODLIS/odlis_d.aspx#databank). **_See also_**: [archival database](https://www.abc-clio.com/ODLIS/odlis_a.aspx#archivaldatabase), [bibliographic database](https://www.abc-clio.com/ODLIS/odlis_b.aspx#bibdatabase), [embedded database](https://www.abc-clio.com/ODLIS/odlis_e.aspx#embeddeddatabase), [metadatabase](https://www.abc-clio.com/ODLIS/odlis_m.aspx#metadatabase), and [niche database](https://www.abc-clio.com/ODLIS/odlis_n.aspx#nichedatabase).
+
+Databases in LIS are usually available through the web, are maintained by the library, by a vendor, etc., and contain organized collections of resources. They are searchable using information _about_ those resources. 
+
+#### **Next**
+
+_Retrieval environments maintained by information professionals are often different from ones that you may be used to using. The goals of information professionals, after all, are not to sell anyone anything, but rather to serve their users in a way that is both professional and ethical. Remember, for example, the American Library Association (ALA) [Code of Ethics](http://www.ala.org/tools/ethics). Next, you will spend at least five minutes looking through an online database of scholarly and other content relating to the field of education._
+
+```python
+
+```
