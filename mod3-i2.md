@@ -1,0 +1,114 @@
+---
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .md
+      format_name: markdown
+      format_version: '1.3'
+      jupytext_version: 1.10.2
+  kernelspec:
+    display_name: Python 3
+    name: python3
+---
+
+<!-- #region id="NVC9cbOOH_qv" -->
+# Key Ideas in IO: KOSs
+
+In Module 2, a number of key notions in information retrieval were presented. It is worth returning to these key notions now to take a closer look at how they fit together.
+
+**Knowledge Organization Systems (KOSs)**
+-----------------------------------------
+
+Hodge (2000) describes KOSs in the introduction to the CLIR report on KOSs in digital library environments. She writes:
+
+> The term _knowledge organization systems_ is intended to encompass all types of schemes for organizing information and promoting knowledge management[1](https://www.clir.org/pubs/reports/pub91/1knowledge/#1). Knowledge organization systems include classification schemes that organize materials at a general level (such as books on a shelf), subject headings that provide more detailed access, and authority files that control variant versions of key information (such as geographic names and personal names). They also include less-traditional schemes, such as semantic networks and ontologies. Because knowledge organization systems are mechanisms for organizing information, they are at the heart of every library, museum, and archive.  
+> Knowledge organization systems are used to organize materials for the purpose of retrieval and to manage a collection. A KOS serves as a bridge between the user’s information need and the material in the collection. With it, the user should be able to identify an object of interest without prior knowledge of its existence. Whether through browsing or direct searching, whether through themes on a Web page or a site search engine, the KOS guides the user through a discovery process. In addition, KOSs allow the organizers to answer questions regarding the scope of a collection and what is needed to round it out.
+
+Wikipedia ([https://en.wikipedia.org/wiki/Knowledge\_organization\_system](https://en.wikipedia.org/wiki/Knowledge_organization_system)) tells us the following:
+
+> **Knowledge Organization Systems** (**KOS**), **concept system** or **concept scheme** is a [generic term](https://en.wikipedia.org/wiki/Generic_term "Generic term") used in [knowledge organization](https://en.wikipedia.org/wiki/Knowledge_organization "Knowledge organization") about [authority files](https://en.wikipedia.org/wiki/Authority_file "Authority file"), [classification schemes](https://en.wikipedia.org/wiki/Classification_scheme "Classification scheme"), [thesauri](https://en.wikipedia.org/wiki/Thesaurus_(information_retrieval) "Thesaurus (information retrieval)"), [topic maps](https://en.wikipedia.org/wiki/Topic_maps "Topic maps"), [ontologies](https://en.wikipedia.org/wiki/Ontology_(information_science) "Ontology (information science)") etc.
+
+You have already seen the entry for Knowledge organization in Wikipedia, as well as the one for Thesaurus (information retrieval) . What about these others, though? Let's start with authority file (though—you should feel free to look through all the Wikipedia pages before continuing)—below, we look at these from a specifically LIS point of view.
+
+**Authority Files**
+-------------------
+
+The concept of "authority files" may seem intimidating. It is just a database in which  librarians store information about how they want to enter particular pieces of data into a field in a surrogate record.
+
+To help patrons find what they're looking for, and to help catalogers ensure materials have uniform information, authority files are used in many KOSs. There are authority files kept for names, subjects and titles. Titles for individual works are often in uniform title authority files, while journals are in series titles authority files, which can be extremely helpful due to different journals having the same name, which happens all too often.
+
+In the example cataloging card below, the title is the main entry. How many subject headings are on this card? 
+
+The subjects listed below on this card, will also appear in subject authority files. It would be most unfortunate if there were no such authority files, as this book could be put in a Literary fight club, instead of Literary quarrels, and having two such subject headings would decreasing the discoverability of books on the topic.
+
+[![Card from card catalog](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Card_from_card_catalog.jpg/1200px-Card_from_card_catalog.jpg)](https://commons.wikimedia.org/wiki/File:Card_from_card_catalog.jpg)
+
+Review the ODLIS definition of [authority file](https://products.abc-clio.com/ODLIS/odlis_about.aspx#authorityfile).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Authority Records
+
+Now that you know the terminology a little, you probably will not be surprised to learn that authority files, which are databases, are searchable collections of authority records. Review the ODLIS definition for [authority records](https://www.abc-clio.com/ODLIS/odlis_a.aspx#authorityrecord).
+
+An authority record used to be sorted on cards, very similar to the book record illustrated above. The Library of Congress 
+
+An authority record represents the decided on form of the name, be it personal or corporate, for a book or a journal, or the standard subject headings to be used in a library catalog. These records are very useful when adding new items to the collection so that they will match similar works in the KOSs. [Click here](http://authorities.loc.gov/) to connect to _Library of Congress Authorities_. You'll find you can search by subject, name/title and all at once with keyword authorities! Try searching for Winston Churchill. What is the birth year and death year of the St. Louis, Mo Winston Churchill? 
+
+So far, the "records" in library catalogs have been surrogates that stand in for a book, etc. Authority records are very different! 
+
+Authority records establish the way, for example, an author's name will be included _in the surrogate_. This is complex, but luckily, database technology allows for surrogates to make use of information recorded in authority records, especially to help pull together—or _collocate_—all the works by a given author. 
+
+### Value added cataloging
+
+View the results of an author browse search in MERLIN for [Richardson, T. ](http://merlin.lib.umsystem.edu/search~S8/?searchtype=a&searcharg=richardson%2C+t)
+
+A goal in cataloging is to provide a unique form of name for each person. As you scroll through the list of the search results, you will see some of the conventions used to achieve this. Some names include birth and/or death dates (Richardson, Thomas, 1816–1867). Others include a middle initial or a middle name (Richardson, Thomas R.). When those pieces of information are unknown or are not enough to construct a unique form of the name, an occupation may be added (Richardson, Ted (Musician)). The unique form is documented in an authority record, so that other catalogers will use that same form of name.
+
+Consider the value(s) this practice provides for users.
+
+#### Example Authority File and Record Exercise: LCNAF
+
+Let's consider a specific example of an authority record. The Library of Congress Name Authority File ([LCNAF](http://id.loc.gov/authorities/names.html)) helps librarians figure out how to provide author names in the author name field of a bibliographic record.
+
+### ![](https://missouri.instructure.com/courses/45003/files/7748332/download)  
+**Exercise**
+
+Search in the Library of Congress Authoritie tool ([https://authorities.loc.gov/](https://authorities.loc.gov/)) for the entry (i.e., for the record) for Lady Gaga. You know already that librarians usually enter names Lastname, Firstname (dates). So what did they do with Lady Gaga, who doesn't go by a last name?
+
+**HINT:** Make sure to use the name search for this search.
+
+[Lady Gaga LOC search](ladygaga.png)
+
+Search in the LCNAF database for Churchill, Winston. Notice how this interface is different from the [Library of Congress Authorities](http://authorities.loc.gov/) search you were referred to earlier.
+
+
+
+**When you're ready, click Next to see the answer on the following page.**
+
+* * *
+
+#### Reference
+
+Hodge, G. (2000). _Systems of knowledge organization for digital libraries: Beyond traditional authority files_. CLIR.  . [https://www.clir.org/pubs/reports/pub91/](https://www.clir.org/pubs/reports/pub91/)
+<!-- #endregion -->
+
+```python id="IUrAaKf93wz-" executionInfo={"status": "ok", "timestamp": 1610241482771, "user_tz": 360, "elapsed": 408, "user": {"displayName": "Lena Marvin", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14Gjlu9AwLaoSvJmsenRWVwrq2SBKwAR0tUDf3ZGbNQ=s64", "userId": "05633353676631892928"}}
+
+```

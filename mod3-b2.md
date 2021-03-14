@@ -12,7 +12,7 @@ jupyter:
     name: python3
 ---
 
-<!-- #region -->
+<!-- #region id="Dgtt7vIXuhsg" -->
 # Contextualizing IO Broadly in LAMs
 
 IO may look different in libraries, archives, and museums, a number of aspects remain consistent. Information seekers rely on the work of information intermediaries to find information resources.
@@ -29,11 +29,9 @@ This view is simplified, but can help us to visualize where IO fits into a numbe
 **Information Retrieval, Revisited**
 ------------------------------------
 
-In the last Module, information retrieval was explored. As a reminder, the ODLIS defines [Information retrieval](https://products.abc-clio.com/ODLIS/odlis_i.aspx#inforetrieval) in the following way: 
+In the last Module, information retrieval was explored. As stated previously, information retrieval is the act of searching for known items in a catalog, index or database. Some retrieval tools are analog, and some are digital. Computer-based information storage and retrieval systems, such as a librarie's OPAC (online public access catalog) are designed for convience and effectiveness balanced with speed, accuracy and cost. 
 
-> The process, methods, and procedures used to selectively recall recorded [information](https://www.abc-clio.com/ODLIS/odlis_i.aspx#information) from a [file](https://www.abc-clio.com/ODLIS/odlis_f.aspx#file) of [data](https://www.abc-clio.com/ODLIS/odlis_d.aspx#data). In [libraries](https://www.abc-clio.com/ODLIS/odlis_l.aspx#library) and [archives](https://www.abc-clio.com/ODLIS/odlis_a.aspx#archives), [searches](https://www.abc-clio.com/ODLIS/odlis_s.aspx#search) are typically for a [known item](https://www.abc-clio.com/ODLIS/odlis_jk.aspx#knownitem) or for information on a specific [subject](https://www.abc-clio.com/ODLIS/odlis_s.aspx#subject), and the file is usually a human-readable [catalog](https://www.abc-clio.com/ODLIS/odlis_c.aspx#catalog) or [index](https://www.abc-clio.com/ODLIS/odlis_i.aspx#index), or a computer-based [information storage and retrieval](https://www.abc-clio.com/ODLIS/odlis_i.aspx#isar) system, such as an [online catalog](https://www.abc-clio.com/ODLIS/odlis_o.aspx#onlinecatalog) or [bibliographic database](https://www.abc-clio.com/ODLIS/odlis_b.aspx#bibdatabase). In designing such systems, balance must be attained between speed, [accuracy](https://www.abc-clio.com/ODLIS/odlis_a.aspx#accuracy), cost, convenience, and effectiveness.
-
-Throughout Module 2, this term and its key components were explored.
+Throughout Module 2, the actof information retrieval and its key components were explored.
 
 As the focus turns to information agencies and their users, this definition can be revisited. First, this definition clarifies that information retrieval in information settings is primarily used to support: 
 
@@ -72,6 +70,6 @@ In the rest of this Module, you will look at:
 _The next page presents an opportunity for self study, allowing you to take what you learned in Module 2 and begin applying it to the question of user need and the information resources LAMs provide._
 <!-- #endregion -->
 
-```python
+```python id="PVr-E9P1uhsk"
 
 ```
